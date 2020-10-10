@@ -28302,7 +28302,7 @@ exports.Home = void 0;
 var react_1 = __importDefault(require("react"));
 
 exports.Home = function () {
-  return react_1.default.createElement("div", null, react_1.default.createElement("h1", null, "Miis hemsida"));
+  return react_1.default.createElement("div", null, react_1.default.createElement("h1", null, "Miis hemsida"), react_1.default.createElement("h2", null, "Hej och v\xE4lkommen!!!"));
 };
 },{"react":"../node_modules/react/index.js"}],"../src/app/index.tsx":[function(require,module,exports) {
 "use strict";
@@ -28377,7 +28377,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60736" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61223" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
