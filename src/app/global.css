@@ -1,3 +1,15 @@
-.container {
-    display: flex; /* or inline-flex */
-  }
+html,
+body {
+  margin: auto;
+  padding: auto;
+  text-align: center;
+}
+
+html {
+  background-image: url('../../pictures/19366.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
