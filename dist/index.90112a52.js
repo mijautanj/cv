@@ -29218,7 +29218,7 @@ try {
 
   var _home = require("../modules/home");
 
-  var _next = require("../modules/next");
+  require("./global.css");
 
   var _jsxFileName = "C:\\Users\\Miis\\Desktop\\cv\\src\\app\\index.tsx";
 
@@ -29226,13 +29226,6 @@ try {
 
   const App = () => {
     return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_home.Home, {
-      __self: void 0,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 8,
-        columnNumber: 5
-      }
-    }), /*#__PURE__*/_react.default.createElement(_next.Next, {
       __self: void 0,
       __source: {
         fileName: _jsxFileName,
@@ -29253,7 +29246,7 @@ try {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"5WtM0","../modules/home":"59spN","../modules/next":"1XED7","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"1t8mc"}],"59spN":[function(require,module,exports) {
+},{"react":"5WtM0","../modules/home":"59spN","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"1t8mc","./global.css":"7kd2r"}],"59spN":[function(require,module,exports) {
 "use strict";
 
 var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
@@ -29500,63 +29493,6 @@ function registerExportsForReactRefresh(module) {
     Refresh.register(exportValue, id + ' %exports% ' + key);
   }
 }
-},{"react-refresh/runtime":"3emQt"}],"1XED7":[function(require,module,exports) {
-"use strict";
-
-var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-helpers.prelude(module);
-
-try {
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-  exports.Next = void 0;
-
-  var _react = _interopRequireDefault(require("react"));
-
-  var _jsxFileName = "C:\\Users\\Miis\\Desktop\\cv\\src\\modules\\next\\index.tsx";
-
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-  const Next = () => {
-    return /*#__PURE__*/_react.default.createElement("div", {
-      __self: void 0,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 5,
-        columnNumber: 11
-      }
-    }, /*#__PURE__*/_react.default.createElement("h1", {
-      __self: void 0,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 6,
-        columnNumber: 5
-      }
-    }, "NEEEXT"), /*#__PURE__*/_react.default.createElement("h2", {
-      __self: void 0,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 7,
-        columnNumber: 5
-      }
-    }, "EOEOEO"));
-  };
-
-  exports.Next = Next;
-  _c = Next;
-
-  var _c;
-
-  $RefreshReg$(_c, "Next");
-  helpers.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react":"5WtM0","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"1t8mc"}]},{},["347E4","25hCO","5T8Uc"], "5T8Uc", null)
+},{"react-refresh/runtime":"3emQt"}],"7kd2r":[function() {},{}]},{},["347E4","25hCO","5T8Uc"], "5T8Uc", null)
 
 //# sourceMappingURL=index.90112a52.js.map

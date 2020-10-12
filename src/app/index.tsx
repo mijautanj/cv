@@ -1,12 +1,12 @@
 import React from "react";
 import { Home } from "../modules/home";
-import { Next } from "../modules/next";
+import"./global.css"
+
 
 export const App = () => {
   return (
     <>
     <Home/>
-    <Next/>
     </>
   );
 };
