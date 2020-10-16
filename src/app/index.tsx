@@ -1,5 +1,5 @@
 import React from "react";
-import { Home } from "../modules/home";
+import { Home } from "../pages/about";
 import"./global.css"
 
 
