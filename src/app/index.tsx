@@ -1,12 +1,19 @@
 import React from "react";
-import { Home } from "../pages/about";
+import {Navigation} from "../components/navigation/index"
 import"./global.css"
+import { BrowserRouter as Router } from "react-router-dom";
+import {Header} from "../components/header/index"
 
 
 export const App = () => {
   return (
     <>
-    <Home/>
+   
+   <Header/>
+  
+    <Router><Navigation/></Router>
+  
+
     </>
   );
 };

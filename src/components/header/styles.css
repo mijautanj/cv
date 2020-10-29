@@ -1,0 +1,115 @@
+.header{
+    display: flex;
+    background-color: var(--main-bg-color);
+    justify-content: center;
+    justify-items: center;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    
+
+}
+
+
+.first-name, .surname {
+  display: flex;
+  margin-left: -6rem;
+  padding-top: 2rem ;
+
+}
+
+.m{
+  margin-top:-1.7rem;
+}
+.first-name {
+  padding-left: 2rem;
+}
+
+.ia, .dybek {
+  font-size: 60px;
+  padding-top: 6rem;
+}
+
+.ia{
+  margin-left: -5rem;
+}
+
+.dybek {
+  margin-left: -7rem;
+}
+
+
+.profilepic{
+  height: 15rem;
+  width: 15rem;
+  padding: 3rem;
+  display: grid;
+  grid-template: 1fr / 1fr;
+  place-items: center;
+}
+
+.profilepic > * {
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+}
+
+
+.photo {
+  border-radius: 60%;
+  height: 14.5rem;
+  width: 14.5rem;
+  z-index: 2;
+}
+  
+
+.ball1 {
+  background-color: var(--main-green-color);
+  height: 14.5rem;
+  width: 14.5rem;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.ball2 {
+  background-color: black;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .profilepic {
+    padding-top: 4rem;
+  }
+
+  .photo, .profilepic, .ball1 {
+    
+    height: 10.5rem;
+    width: 10.5rem;
+  }
+
+  .ball2{
+    height: 11rem;
+    width: 11rem;
+
+  }
+
+  .dybek, .ia {
+    display: none !important;
+  }
+  .m{
+    margin-right:-6.8rem;
+    margin-left: -9.8rem;
+    height: 100px;
+    width: 300px;
+  }
+  .z{
+    margin-left:-1rem;
+    margin-right:-10rem;
+  }
+
+}
+
+
