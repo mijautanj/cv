@@ -1,0 +1,11 @@
+.link {
+  display: inline-block;
+  color:var(--ml-blue);
+  text-decoration: none;
+  text-align: center;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--light-blue)
+}
