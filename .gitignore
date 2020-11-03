@@ -3,4 +3,6 @@ build
 .env
 .cache
 .parcel-cache
-dist
+dist/*
+!dist/_redirects
+
