@@ -1,0 +1,54 @@
+/* The entire section*/
+.portfolio-section{
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;  
+}
+
+
+h2, p {
+    text-align: left;
+}
+
+
+/* The card in the section*/
+.portfolio-card{
+    right: 2rem;
+    align-content: center;
+    display: flex;
+    width: 50%;
+}
+
+
+
+
+.left-port-column{
+    flex: 50%;
+}
+
+.right-port-column{
+    flex: 50%;
+
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .main-conatiner{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 800) {
+    .intro-wrapper{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'nav-wrapper'
+        'left-column'
+        'right-column';
+    }
+    .right-column{
+        justify-content: center;
+    }
+}

@@ -6,32 +6,31 @@ export const About: React.FC = () =>{
   return (
     <>
 
-    
-    
    
-      <div className="about-container">
+      <div className="about-section">
 
-        <div className="intro-wrapper">
+        <div className="about-card">
 
 
-          <div id="preview-shadow">
             <div className="left-column">
-              <div id="preview">
-                <div id="corner-tl" className="corner"></div>
-                <div id="corner-tr" className="corner"></div>
-                <div id="corner-bl" className="corner"></div>
-                <div id="corner-br" className="corner"></div>
-                <h3>Who am I?</h3>
-                <p>I am styding my last year in the Machine Learning master at KTH and working as a web developer intern at Svea Solar!</p>
+                <h2>About me</h2>
+                <p>Hello and welcome to whoever is reading this! I'm Mia, a 24-year old master student at The Royale Institute of Technology (KTH), Stockholm. 
+                  I have a B.Sc. in Engineering Physics and am currently in my senior year of M.Sc. in Machine Learning. 
+                  In addition to that I'm working part-time as a web developer intern at Svea Solar learning all about React and Node.js.</p>
+                <p>In my spare time you'll either find me at the gym or outside training. I love hiking, being out in nature and spending time in the sun. 
+                  I am environmentally conscious, a (vegan) foodie and (red) wine lover!</p>
+                <p>I am a positive but hard worker who believes that a great team can overcome any obstacles put in front of them!</p>
               </div>
 
-          </div>
+       
           
-          </div>
-
           <div className="right-column">
-          <img src={ require('../../../images/mia-bild.jpg')} width="100" height="100" />
-          <h5>Student at KTH (Master's programme in Machine Learing)</h5>
+           
+            <img src={require("./1.jpg")} width="212px" className="bild1"/>
+            <img src={require("./2.jpg")} width="215px" className="bild1"/>
+            <img src={require("./3.jpg")} width="330px"/>
+          
+
           </div>
 
         </div>

@@ -7,7 +7,6 @@ export const Header: React.FC = () =>{
   return (
     <>
 
-
     <div className="header">
         <div className="first-name">
             <img src={require("./m.svg")} height="320px" width="320px" className="m"/>
@@ -27,10 +26,6 @@ export const Header: React.FC = () =>{
         </div>  
     </div>
 
-
- 
-
-    
  
     </>
 

@@ -1,0 +1,94 @@
+.skills-section{
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+
+}
+
+.skills-card{
+    width: 50%;
+   
+}
+
+.intro-text{
+    padding-bottom: 1rem;
+}
+
+.prog-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+h3 {
+    text-align: left;
+}
+
+.python-pic, .matlab-pic, .react-pic, .node-pic{
+    height: 100px;
+    margin:auto;
+}
+
+.python, .matlab, .react, .node{
+    grid-row: 2;
+    margin:auto}
+
+
+
+.python-pic, .python {
+    grid-column: 1;
+
+}
+
+.matlab-pic, .matlab{
+    grid-column: 2;
+}
+
+.react-pic, .react{
+    grid-column: 3;
+}
+
+.node-pic, .node{
+    grid-column: 4;
+}
+
+
+
+
+.language-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.sweden, .gb, .poland, .russia, .spain {
+    grid-row: 2;
+    margin: auto;
+}
+
+.sweden-pic, .gb-pic, .spain-pic, .poland-pic, .russia-pic {
+    height: 50px;
+    border: 2px solid black;
+    grid-row: 1;
+    margin: auto;
+}
+
+.sweden, .sweden-pic {
+    grid-column: 1;
+}
+
+.gb, .gb-pic {
+    grid-column: 2;
+}
+.spain, .spain-pic {
+    grid-column: 3;
+}
+.poland, .poland-pic {
+    grid-column: 4;
+}
+.russia, .russia-pic {
+    grid-column: 5;
+}
+
+

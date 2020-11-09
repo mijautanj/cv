@@ -1,0 +1,62 @@
+.education-section{
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+
+}
+
+.education-card{
+    width: 50%;
+   
+}
+
+.intro-text{
+    padding-bottom: 1rem;
+}
+
+.education-list{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-left: 2rem;
+}
+
+h4, p{
+    text-align: left;
+}
+
+
+.kth-pic, .enskilda-pic {
+    width: 100px;
+    margin: auto;
+}
+
+.kth1{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.kth2{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.enskilda{
+    grid-column: 1;
+    grid-row: 3;
+}
+
+
+
+
+.kth-pic{
+    grid-column: 2;
+    grid-row: 1 2;
+    
+}
+.enskilda-pic{
+    grid-column: 2;
+    grid-row: 3;
+    
+}
+

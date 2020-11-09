@@ -1,10 +1,11 @@
 import React from "react"
+import { Portfolio } from "../components/portfolio"
 
 
 export const PortfolioPage: React.FC = () =>{
   return (
     <div className="page">
-      <h1>My portfolio</h1>
+      <Portfolio/>
     </div>
 
     )

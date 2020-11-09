@@ -1,11 +1,13 @@
 import React from "react"
+import { Skills } from "../components/skills"
+
 
 
 
 export const SkillsPage: React.FC = () =>{
   return (
     <div className="page">
-      <h1>My skills</h1>
+      <Skills/>
     </div>
 
     )
