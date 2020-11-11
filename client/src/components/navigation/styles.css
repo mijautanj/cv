@@ -42,3 +42,32 @@
 }
 
 
+
+@media screen and (max-width: 600px) {
+  .navigation {
+      font-size: 20px;
+      font-weight:700;
+      align-items: center;
+      justify-content: center;
+      padding-bottom:1rem;
+  }
+  .list {
+    flex-direction: column;
+    padding-top: 1.5rem;
+    margin-top: 1rem;
+    border-top: 1px solid var(--dark-blue);
+  }
+  .list-item {
+     padding-bottom: 1rem;
+    }
+      
+  .list-item + .list-item {
+
+    border-left: none;
+    padding-bottom: 1rem;
+    margin:0
+      }
+    
+  
+}
+

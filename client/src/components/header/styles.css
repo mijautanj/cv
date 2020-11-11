@@ -2,10 +2,10 @@
     display: flex;
     background-color: var(--main-bg-color);
     justify-content: center;
-    justify-items: center;
+    align-items: center;
     padding-bottom: 1rem;
-    padding-left: 1rem;
-    
+    padding-left: 2rem;
+
 
 }
 
@@ -79,37 +79,150 @@
 
 
 
-@media screen and (max-width: 700px) {
+
+@media screen and (max-width: 915px) {
+  .header{
+    padding: 0 0 0 1rem;
+  }
   .profilepic {
     padding-top: 4rem;
   }
 
   .photo, .profilepic, .ball1 {
-    
+    margin-bottom: 2rem;
     height: 10.5rem;
     width: 10.5rem;
   }
 
   .ball2{
+    margin-bottom: 2rem;
     height: 11rem;
     width: 11rem;
-
   }
 
   .dybek, .ia {
-    display: none !important;
+    font-size: 50px;
   }
   .m{
-    margin-right:-6.8rem;
-    margin-left: -9.8rem;
-    height: 100px;
-    width: 300px;
+    margin-right: 3.5rem;
+   margin-left: 2rem;
+    width: 200px;
+    
   }
   .z{
-    margin-left:-1rem;
-    margin-right:-10rem;
+    width: 180px;
+    margin-left:3rem;
+
   }
+  .dybek{
+    padding-left:2rem;
+  }
+
 
 }
 
+
+@media screen and (max-width: 700px) {
+  .header{
+    padding: 0 0 0 1rem;
+  }
+  .profilepic {
+    padding-top: 4rem;
+  }
+
+  .photo, .profilepic, .ball1 {
+    margin-bottom: 2rem;
+
+    height: 10.5rem;
+    width: 10.5rem;
+  }
+
+  .ball2{
+
+    margin-bottom: 2rem;
+    height: 11rem;
+    width: 11rem;
+  }
+
+  .dybek, .ia {
+    font-size: 50px;
+  }
+  .m{
+    margin-right: 3.5rem;
+   margin-left: 2rem;
+    width: 150px;
+    
+  }
+  .z{
+    width: 140px;
+    margin-left:3rem;
+
+  }
+  .dybek{
+    padding-left:3rem;
+  }
+
+
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  .header{
+    flex-direction: column;
+    height: 26rem;
+    width: screen;
+    padding: 0 0 1rem 0;
+    margin-top: -2rem;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+  .profilepic{
+    padding: 0;
+  }
+
+  .first-name, .surname{
+    display: flex;
+  }
+  
+  .first-name{
+    margin-bottom: -2rem;
+
+  }
+
+  .surname{
+    margin-top: -4rem;
+    padding-left: 2.6rem;
+  }
+  .dybek, .ia {
+    font-size: 40px;
+  }
+
+  .m{
+    margin: 0;
+    padding:0 0 0 1rem;
+    height: 150px;
+    
+  }
+  .z{
+    height: 110px;
+    padding: 0 0 0 1rem;
+    margin: 0 -2.5rem 0 0;
+  }
+
+  .ia{
+    padding-top:3rem;
+    padding-left: 2.5rem;
+  }
+  .dybek{
+    padding-top:1.5rem;
+    padding-left: 6rem;
+    
+
+  }
+
+}
 

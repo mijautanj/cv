@@ -19,35 +19,34 @@ export const Experience: React.FC = () =>{
 
             <div className="experience-list">
 
+            <img src={require("./svea-solar.png")} className="svea-pic"/>
               <div className="svea1">
                   <h4>Svea Solar - Developer intern</h4>
                   <p>Fullstack development of internal support website alongside with technical support of solar cell monitoring app.</p>
                   
               </div>
-              <img src={require("./svea-solar.png")} className="svea-pic"/>
 
+
+              <img src={require("./svea-solar.png")} className="svea-pic"/>
               <div className="svea2">
                   <h4>Svea Solar - Engineering intern</h4>
                   <p>Project coordination and technical support of solar cell installations.</p>
                   
               </div>
-              <img src={require("./svea-solar.png")} className="svea-pic"/>
-              
+  
+              <img src={require("./fortum.png")} className="fortum-pic"/>
               <div className="fortum">
                 <h4>Fortum - Engineering intern</h4>
                 <p>Administration and operation maintenance of EV-chargers and their cloud-based charging service.</p>
               </div>
-              <img src={require("./fortum.png")} className="fortum-pic"/>
 
+              <img src={require("./ericsson2.png")} className="ericsson-pic"/>
               <div className="ericsson">
                 <h4>Ericsson - Data Administration</h4>
                 <p>Registration and control of optical fibre data in internal systems.</p>  
               </div>
-              <img src={require("./ericsson2.png")} className="ericsson-pic"/>
 
-        
-       
-          
+
             </div>
            
             

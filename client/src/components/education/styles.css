@@ -60,3 +60,60 @@ h4, p{
     
 }
 
+
+@media screen and (max-width: 1500px) {
+    .education-card{
+        width: 70%;
+    }
+}
+
+
+
+@media screen and (max-width: 1300px) {
+    .education-card{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .education-card{
+        width: 90%;
+    }
+}
+
+
+
+@media screen and (max-width: 850px) {
+    .education-card{
+        flex-direction: column;
+    
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .education-list{
+        display: flex;
+        flex-direction: column;
+        padding-right: 2rem;
+       
+    }
+
+
+
+    h4, p {
+        text-align: left;
+    }
+    p{
+        padding-bottom: 2rem;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .education-card{
+        width: 95%;
+    }
+
+}

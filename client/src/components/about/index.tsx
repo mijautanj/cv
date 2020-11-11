@@ -28,7 +28,8 @@ export const About: React.FC = () =>{
            
             <img src={require("./1.jpg")} width="212px" className="bild1"/>
             <img src={require("./2.jpg")} width="215px" className="bild1"/>
-            <img src={require("./3.jpg")} width="330px"/>
+            <img src={require("./3.jpg")} width="330px" className="bild3"/>
+
           
 
           </div>

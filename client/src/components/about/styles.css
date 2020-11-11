@@ -33,6 +33,8 @@ h2, p {
 
 .right-column{
     flex: 60%;
+   padding-right: -2rem;
+
 
 }
 
@@ -42,21 +44,50 @@ h2, p {
 
 
 
-@media screen and (max-width: 1200px) {
-    .main-conatiner{
-        width: 95%;
+@media screen and (max-width: 1500px) {
+    .left-column{
+        padding-top:4rem;
+        padding-left:0;
+    }
+    .about-card{
+        width: 70%;
     }
 }
 
-@media screen and (max-width: 800) {
-    .intro-wrapper{
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        'nav-wrapper'
-        'left-column'
-        'right-column';
-    }
-    .right-column{
-        justify-content: center;
+
+
+@media screen and (max-width: 1300px) {
+    .about-card{
+        width: 80%;
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .about-card{
+        width: 90%;
+    }
+}
+
+
+
+@media screen and (max-width: 850px) {
+    .about-card{
+        flex-direction: column;
+    
+    }
+    .left-column, .right-column{
+        padding:0;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .about-card{
+        width: 95%;
+    }
+    .bild3{
+        width: 215px
+    }
+}    
+

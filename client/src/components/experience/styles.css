@@ -64,3 +64,62 @@ h4, p{
     grid-row: 4;
     
 }
+
+
+@media screen and (max-width: 1500px) {
+    .experience-card{
+        width: 70%;
+    }
+}
+
+
+
+@media screen and (max-width: 1300px) {
+    .experience-card{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .experience-card{
+        width: 90%;
+    }
+}
+
+
+
+@media screen and (max-width: 850px) {
+    .experience-card{
+        flex-direction: column;
+    
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .experience-list{
+        display: flex;
+        flex-direction: column;
+        padding-right: 2rem;
+       
+    }
+
+
+
+    h4, p {
+        text-align: left;
+    }
+    p{
+        padding-bottom: 2rem;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .experience-card{
+        width: 95%;
+    }
+
+}
+

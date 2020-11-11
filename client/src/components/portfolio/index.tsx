@@ -14,7 +14,7 @@ export const Portfolio: React.FC = () =>{
 
             <div className="left-port-column">
                 <h2>My portfolio</h2>
-                <p>Work in progress (d3)</p>
+                <p>Work in progress [insert cool d3-graphics]</p>
               </div>
 
        
