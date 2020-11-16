@@ -103,9 +103,6 @@ h4, p{
         padding-right: 2rem;
        
     }
-
-
-
     h4, p {
         text-align: left;
     }
@@ -120,5 +117,6 @@ h4, p{
     .experience-card{
         width: 95%;
     }
+}
 
 
