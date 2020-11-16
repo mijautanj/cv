@@ -37,9 +37,3 @@ a {
 
 
 
-@media screen and (max-width: 700px) {
-  .html, .body {
-    justify-content: center;
-  }
-}
-

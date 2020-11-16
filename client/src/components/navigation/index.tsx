@@ -29,9 +29,7 @@ export const Navigation = () => {
             <Link to="/education">Education</Link>
           </li>
           <li className="list-item">
-
             <Link to="/portfolio">Portfolio</Link>
-
 
           </li>
         </ul>

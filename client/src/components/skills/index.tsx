@@ -18,7 +18,8 @@ export const Skills: React.FC = () =>{
           <div className="intro-text">
                 <h3>Programming skills</h3>
                 <p>In my education I've mostly used Python and Matlab for mathematical computations and Machine Learning algorithms. 
-                  In my latest internship I've had the great oppertunity to learn about web development using React and Node.js 
+
+                  In my latest internship I've had the great oppertunity to learn about web development using JavaScript and Node.js, 
                   and collaborating together using GIT.
                 </p>
             </div>
@@ -37,13 +38,13 @@ export const Skills: React.FC = () =>{
                   <p>Intermediate</p>
                   
               </div>
-   
-              <img src={require("./react.png")} className="react-pic"/>
-
+              
+              <img src={require("./javascript.png")} className="react-pic"/>
               <div className="react">
-                <h4>React</h4>
+                <h4>Javascript</h4>
                 <p>Beginner</p>
               </div>
+
 
               <img src={require("./node.png")} className="node-pic"/>
 
@@ -74,35 +75,34 @@ export const Skills: React.FC = () =>{
                   <h4>Swedish</h4>
                   <p>Native</p>                
               </div>
-          
-              <img src={require("./gb.png")} className="gb-pic"/>
 
+              <img src={require("./gb.png")} className="gb-pic"/>
               <div className="gb">
                   <h4>English</h4>
                   <p>Fluent</p>
                   
               </div>
 
+              
               <img src={require("./spain.png")} className="spain-pic"/>
-
               <div className="spain">
                 <h4>Spanish</h4>
                 <p>Conversational</p>
               </div>
 
               <img src={require("./poland.png")} className="poland-pic"/>
-
               <div className="poland">
                 <h4>Polish</h4>
                 <p>Conversational</p>
               </div>
-   
-              <img src={require("./russia.png")} className="russia-pic"/>
 
+             
+              <img src={require("./russia.png")} className="russia-pic"/>
               <div className="russia">
                 <h4>Russian</h4>
                 <p>Conversational</p>  
               </div>
+
 
             </div>
             

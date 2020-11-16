@@ -33,8 +33,7 @@ h2, p {
 
 .right-column{
     flex: 60%;
-   padding-right: -2rem;
-
+    padding-right: -2rem;
 
 }
 
@@ -89,5 +88,4 @@ h2, p {
     .bild3{
         width: 215px
     }
-}    
 

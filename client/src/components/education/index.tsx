@@ -24,9 +24,8 @@ export const Education: React.FC = () =>{
                   <h4>Royal Institute of Technology (KTH) - M.Sc. Machine Learning</h4>
                   <p>Attended courses such as  "Deep Learning in Data Science", "Artificial Neural Networks and Deep Architectures", 
                     "Artificial Intelligence", "Advanced Machine Learning" and "Reinforcement Learning".</p>
-            
+                  
               </div>
-
               
               <img src={require("./kth2.jpg")} className="kth-pic"/>
               <div className="kth2">
@@ -35,7 +34,6 @@ export const Education: React.FC = () =>{
                      "Numerical Methods", "Differential Equations and Transforms" and "Algebra and Geometry". </p>
                   
               </div>
-
              
               <img src={require("./enskilda3.png")} className="enskilda-pic"/>
               <div className="enskilda">
