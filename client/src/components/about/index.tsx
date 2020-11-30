@@ -1,8 +1,14 @@
 import React from "react"
 import "./styles.css"
+import Axios from "axios"
 
 
 export const About: React.FC = () =>{
+  const [paragraph,setParagraph] = React.useState("marvin") 
+  React.useEffect(()=>{
+    Axios.get("https://mias-cv.herokuapp.com/").then(()=>{console.log("lelele")})
+  }, [])
+
   return (
     <>
 
@@ -14,13 +20,7 @@ export const About: React.FC = () =>{
 
             <div className="left-column">
                 <h2>About me</h2>
-                <p>Hello and welcome to whoever is reading this! I'm Mia, a 24-year old master student at The Royale Institute of Technology (KTH), Stockholm. 
-                  I have a B.Sc. in Engineering Physics and am currently in my senior year of M.Sc. in Machine Learning. 
-                  In addition to that I'm working part-time as a web developer intern at Svea Solar learning all about JavaScript and Node.js.</p>
-
-                <p>In my spare time you'll either find me at the gym or outside training. I love hiking, being out in nature and spending time in the sun. 
-                  I am environmentally conscious, a (vegan) foodie and (red) wine lover!</p>
-                <p>I am a positive but hard worker who believes that a great team can overcome any obstacles put in front of them!</p>
+                {paragraph}
               </div>
 
        
